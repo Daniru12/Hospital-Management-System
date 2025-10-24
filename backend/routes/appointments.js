@@ -9,8 +9,7 @@ const router = express.Router();
 router.get('/', authenticateToken, async (req, res) => {
   try {
     let query = {};
-    
-    // Filter by user role
+
     if (req.user.role === 'patient') {
       query.patientId = req.user._id;
     } else if (req.user.role === 'doctor') {
