@@ -229,6 +229,3 @@ For support and questions:
   - Digital health cards
   - Notification system
 
----
-
-**Built with ❤️ for better healthcare management**
